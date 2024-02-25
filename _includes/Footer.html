@@ -1,15 +1,5 @@
 <div id="credits">
     <p id="legal-notice">
-        {%- if site.credits.date != nil-%}
-        {{site.credits.date}} - 
-        {%- endif -%}
-
-        {%- if site.credits.license != nil-%}
-        <a href = "{{site.credits.licenseurl}}">{{site.credits.license}}</a> by
-        {%- endif -%}
-
-        {%- if site.credits.name != nil-%}
-        {{site.credits.name}} 
-        {%- endif -%}
+        {%- if site.credits.date != nil-%}{{site.credits.date}} - {%- endif -%}{%- if site.credits.license != nil-%}<a href = "{{site.credits.licenseurl}}">{{site.credits.license}}</a> by {%- endif -%}{%- if site.credits.name != nil-%}{{site.credits.name}}{%- endif -%}
     </p>
 </div> 
