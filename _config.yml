@@ -26,13 +26,31 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: ""
 
 
+#AUTHOR
+author :
+  name : name
+  email : email
+  website : website
+  tumblr : tumblr
+  flickr : flickr
+  github : github
+  repository : repository
+  gittip : gittip
+  twitter : twitter
+  facebook : facebook
+  feedburner : feedburner
+  linkedin: linkedin
+  pinterest: pinterest
+  bitbucket: bitbucket
+  stackoverflow: stackoverflow
+
 #WEBSITE VARIABLES
 # Website Title, Description, Footer year and text. 
 # If you are deleting this, make sure you remove it from HTML files too 
 title: Jekyll Garden # Change this 
 description: Obsidian ready Jekyll Theme
+author: Author
 credits:
-  name: "Owner Name"
   license:  UNLICENSED
   licenseurl: https://google.com
   date: 2024
