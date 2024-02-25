@@ -27,14 +27,14 @@ baseurl: ""
 
 
 #AUTHOR
-author :
+author:
   name : name
   email : email
   website : website
   tumblr : tumblr
   flickr : flickr
   github : github
-  repository : repository
+  repository : https://github.com/juanalbglz/jekyll-garden
   gittip : gittip
   twitter : twitter
   facebook : facebook
@@ -49,11 +49,11 @@ author :
 # If you are deleting this, make sure you remove it from HTML files too 
 title: Jekyll Garden # Change this 
 description: Obsidian ready Jekyll Theme
-author: Author
-credits:
+legal:
   license:  UNLICENSED
   licenseurl: https://google.com
-  date: 2024
+  startdate: {{ site.posts.first.date }}
+  enddate: {{ site.posts.last.date }}
 
 # Set title and content for private & broken link tooltop
 privatelinks:
@@ -97,7 +97,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
-  math_engine: katex
+  math_engine: "katex"
   smart_quotes: ["apos", "apos", "quot", "quot"]
   syntax_highlighter: rouge
   
